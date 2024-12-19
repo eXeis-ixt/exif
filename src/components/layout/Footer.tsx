@@ -61,7 +61,7 @@ export const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="flex items-center justify-center gap-1 text-gray-400">
-            Made with <Heart className="h-4 w-4 text-red-500" /> by EXIF Viewer Team
+            Made with <Heart className="h-4 w-4 text-red-500" /> by Adons Tech's Development team
           </p>
         </div>
       </Container>

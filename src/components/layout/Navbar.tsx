@@ -16,7 +16,7 @@ export const Navbar = () => {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      scrolled ? 'bg-black/80 backdrop-blur-lg shadow-lg' : 'bg-transparent'
+      scrolled ? 'bg-transparent backdrop-blur-lg shadow-lg' : 'bg-transparent'
     }`}>
       <Container>
         <div className="flex items-center justify-between h-16">
@@ -26,7 +26,7 @@ export const Navbar = () => {
           </div>
           <div className="flex items-center space-x-4">
             <a
-              href="https://github.com"
+              href="https://github.com/eXeis-ixt/exif"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white transition-colors"
