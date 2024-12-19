@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .glow-effect {
+    --glow-color: theme(colors.blue.500);
+    box-shadow: 0 0 15px var(--glow-color),
+                0 0 30px var(--glow-color / 50%),
+                0 0 45px var(--glow-color / 25%);
+  }
+
+  .gradient-backdrop {
+    background: radial-gradient(circle at top center, 
+                rgba(59, 130, 246, 0.15) 0%, 
+                rgba(0, 0, 0, 0) 70%),
+                radial-gradient(circle at bottom left, 
+                rgba(147, 51, 234, 0.15) 0%, 
+                rgba(0, 0, 0, 0) 70%);
+  }
+
+  .upload-gradient {
+    background: linear-gradient(45deg, 
+                rgba(59, 130, 246, 0.1) 0%, 
+                rgba(147, 51, 234, 0.1) 100%);
+  }
+}
