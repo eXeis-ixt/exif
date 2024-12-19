@@ -21,11 +21,11 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
             <ImageIcon className="h-6 w-6 text-blue-500" />
-            <span className="text-xl font-bold text-white">EXIF Viewer</span>
+            <span className="text-xl font-bold text-white">Inspect any Image</span>
           </div>
           <div className="flex items-center space-x-4">
             <a
-              href="https://github.com"
+              href="https://github.com/eXeis-ixt/exif"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white transition-colors"

@@ -24,7 +24,6 @@ function App() {
     <PageLayout>
       <div className="text-center mb-12">
         <div className="flex items-center justify-center gap-2 mb-4">
-          <ImageIcon className="h-12 w-12 text-blue-500" />
           <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
             EXIF Data Viewer
           </h1>

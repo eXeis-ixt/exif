@@ -53,7 +53,7 @@ export const DropZone: React.FC<DropZoneProps> = ({ onFileSelect }) => {
         Supports JPG, PNG, and other common image formats
       </p>
       
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
+      <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
     </div>
   );
 };
